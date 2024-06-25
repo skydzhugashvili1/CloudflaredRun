@@ -1,0 +1,18 @@
+debug: false
+uuid: 778667c6-860d-4340-9343-9d50b676f6ea
+token_id: VVOVyAs93WRkZS8A
+token: UVITZCb2BcmKYtje6pmjSgRdp4VvXD6PVQ1TZ92BioFZfuWSG0GwUFPsXAx33r5L
+api:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: true
+    cert: /etc/letsencrypt/live/skyshomenode.jcbm-mc.uk/fullchain.pem
+    key: /etc/letsencrypt/live/skyshomenode.jcbm-mc.uk/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://skyshomepanel.jcbm-mc.uk'
